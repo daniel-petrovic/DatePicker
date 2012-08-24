@@ -19,7 +19,7 @@ This is the lightweight date picker plugin for MooTools. It should work with all
 
 * P.S: There are very few options right now, becuase the plugin is intended only to provide the very basic functionality. Feel free to fit it to your needs.
 
-default options = {
+default options: 
     * pickerClass: 'datepicker', // table class
     * inputClass: 'dateinput',   // input field class for applying the custom css
     * month: 0, // -> if 0 use the current month
