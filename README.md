@@ -1,18 +1,18 @@
 This is the lightweight date picker plugin for MooTools. It should work with all MooTools versions above 1.3. This plugin requires Locale.js and Date.js from MooTools-More. Basic usage:
 
-1. Include the required dependencies: 
+. Include the required dependencies: 
 
     * script src=.... path to mootools-core-x.x.x-full-compat-yc.js
     * script src=.... path to mootools-more/Source/Locale/Locale.js
     * script src=.... path to mootools-more/Source/Types/Date.js
 
-1. (optional) Inlude the default css, or if you dont like it - create one by your own. The default css path is:
+. (optional) Inlude the default css, or if you dont like it - create one by your own. The default css path is:
 
 * link href="... path to datepicker/assets/datepicker.css" rel="stylesheet" 
 
-1.. Create input field with appropriate class (default = "dateinput")
+. Create input field with appropriate class (default = "dateinput")
 
-1.. Call the plugin, like:
+. Call the plugin, like:
 
     var dp = new DatePicker($$('.dateinput'), options);
 
