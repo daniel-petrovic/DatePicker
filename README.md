@@ -6,13 +6,13 @@ This is the lightweight date picker plugin for MooTools. It should work with all
     * script src=.... path to mootools-more/Source/Locale/Locale.js
     * script src=.... path to mootools-more/Source/Types/Date.js
 
-2. (optional) Inlude the default css, or if you dont like it - create one by your own. The default css path is:
+1. (optional) Inlude the default css, or if you dont like it - create one by your own. The default css path is:
 
 * link href="... path to datepicker/assets/datepicker.css" rel="stylesheet" 
 
-3. Create input field with appropriate class (default = "dateinput")
+1.. Create input field with appropriate class (default = "dateinput")
 
-4. Call the plugin, like:
+1.. Call the plugin, like:
 
     var dp = new DatePicker($$('.dateinput'), options);
 
