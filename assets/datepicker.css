@@ -1,0 +1,48 @@
+input.dateinput {
+    background: white url(datepicker-calendar.png) right no-repeat;
+    padding-right: 17px;
+}
+
+table.datepicker {
+    background: #fff;
+    font-size: 11px;
+    padding: 10px;
+    background: #efefef;
+}
+
+
+table.datepicker td {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+table.datepicker td.cell {
+    cursor: pointer;
+}
+
+table.datepicker td.cell:hover {
+    background: #68b604;
+    color: #fff;
+    font-weight: bold;
+}
+
+table.datepicker td.cell span {
+    display: block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+
+table.datepicker select.picker-month,
+table.datepicker select.picker-year {
+    font-size: 11px;
+    padding: 0 4px;
+    line-height: 15px;
+    height: 15px;
+    width: auto;
+    display: inline;
+    margin: 0 5px;
+    cursor: pointer;
+}
